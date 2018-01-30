@@ -216,10 +216,10 @@ contract StandardToken is ERC20, BasicToken {
 	
 }
 
-contract TTC is StandardToken, Owned {
+contract TEC is StandardToken, Owned {
 	string public constant name    = "TECHTRADECOIN";  
 	uint8 public constant decimals = 8;               
-	string public constant symbol  = "TTC";
+	string public constant symbol  = "TEC";
 	bool public canClaimToken = false;
 	uint256 public constant maxSupply  = 300000000*10**uint256(decimals);
 	uint256 public constant dateInit=1516924800 ;
